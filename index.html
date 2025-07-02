@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>روابط المُنتدى الاجتماعي التنموي</title>
+    <link rel="stylesheet" href="links.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .header-animate {
+            opacity: 0;
+            transform: translateY(-30px);
+            animation: fadeInDown 1.2s ease-out forwards;
+            animation-delay: 0.2s;
+        }
+        .logo-animate {
+            opacity: 0;
+            transform: scale(0.8);
+            animation: fadeInScale 1.2s ease-out forwards;
+            animation-delay: 0.4s;
+        }
+        @keyframes fadeInDown {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInScale {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+        }
+        @keyframes fadeInOut {
+            0%, 15%, 85%, 100% { opacity: 0; }
+            30%, 70% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="dot"></div>
+        <div class="dot" style="left:70%;top:30%;width:18px;height:18px;animation-delay:2s;"></div>
+        <div class="dot" style="left:20%;top:80%;width:14px;height:14px;animation-delay:4s;"></div>
+    </div>
+    <div class="links-container">
+        <header class="links-header">
+            <img src="assets/images/SDFW.png" alt="Social Developmental Forum" class="profile-picture logo-animate">
+            <h1 style="font-family: 'Rubik', 'Cairo', sans-serif;" class="header-animate">المُنتدى الاجتماعي التنموي</h1>
+            <p style="color: #f7bc3e" class="header-animate">نحو مجتمع مدني فاعل وتنمية مستدامة في فلسطين</p>
+        </header>
+
+        <main class="links-section">
+            <a href="https://sdf-pal.org/" class="link-button" target="_blank" rel="noopener">
+                <i class="fas fa-globe"></i> الموقع الالكتروني
+            </a>
+            <a href="https://athronline.com/ar/" class="link-button" target="_blank" rel="noopener">
+                <i class="fas fa-graduation-cap"></i> منصــــــــة أثــــــــــــــــــــر
+            </a>
+            <a href="https://t4p.sdf-pal.org/ar/home/" class="link-button" target="_blank" rel="noopener">
+                <i class="fas fa-bullhorn"></i> عشان فلسطيـــن
+            </a>
+        </main>
+
+        <section class="stories-swiper-section">
+            <h2 class="stories-swiper-heading">قصص من الميدان</h2>
+            <div class="stories-swiper">
+                <div class="stories-swiper-wrapper">
+                    <div class="stories-swiper-slide">
+                        <img src="assets/images/story1.jpg" alt="نور الأطرش" class="story-img">
+                        <div class="story-info">
+                            <a href="https://sdf-pal.org/نور-الأطرش-حين-تتحوّل-التحديات-إلى-رسا/" target="_blank" rel="noopener" class="story-link"><h3>نور الأطرش.. حين تتحوّل التحديات إلى رسالة</h3></a>
+                            <span class="story-date">15 يونيو، 2025</span>
+                        </div>
+                    </div>
+                    <div class="stories-swiper-slide">
+                        <img src="assets/images/story2.jpg" alt="إيمان أبو جراد" class="story-img">
+                        <div class="story-info">
+                            <a href="https://sdf-pal.org/إيمان-أبو-جراد-النزوح-ليس-عائقًا-أمام/" target="_blank" rel="noopener" class="story-link"><h3>إيمان أبو جراد.. النزوح ليس عائقًا أمام الحُلم</h3></a>
+                            <span class="story-date">17 يونيو، 2025</span>
+                        </div>
+                    </div>
+                    <div class="stories-swiper-slide">
+                        <img src="assets/images/story3.jpg" alt="رئيس قطاع الشباب" class="story-img">
+                        <div class="story-info">
+                            <a href="https://sdf-pal.org/المنتدى-الاجتماعي-التنموي-رئيسًا-لقط/" target="_blank" rel="noopener" class="story-link"><h3>المنتدى الاجتماعي التنموي رئيسًا لقطاع الشباب للمنظمات الاهلية الفلسطينية</h3></a>
+                            <span class="story-date">20 يونيو، 2025</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories-swiper-dots"></div>
+            </div>
+        </section>
+        <link rel="stylesheet" href="stories-swiper.css">
+        <script src="stories-swiper.js"></script>
+
+        <footer class="links-footer">
+            <hr style="border: none; border-top: 2px solid #ffd50050; width: 60%;">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 8px;">
+                <span style="font-size: 1.3rem; color: #f8fafc; font-family: 'Rubik', 'Cairo', sans-serif;">تابعنا على حساباتنا</span>
+                <i class="fas fa-heart" style="font-size: 1.5rem; color: #f7bc3e; animation: fadeInOut 2.2s ease-in-out infinite;"></i>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sdf.pal/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/sdf.pal/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/social-forum-sdf/mycompany/?viewAsMember=true" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.tiktok.com/@sdf.pal" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com/@socialdevelopmentalforum-s652" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://x.com/SdfPal" target="_blank" rel="noopener" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://wa.me/970562525204" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="contact-info">
+                <a href="mailto:info@sdf-pal.org">info@sdf-pal.org<i class="fas fa-envelope"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
